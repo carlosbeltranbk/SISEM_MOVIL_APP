@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".OficialiaPartes.ActivityVisorDemandOficialia">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtDescripcion"
+                android:layout_width="356dp"
+                android:layout_height="121dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/textView9"
+                app:layout_constraintEnd_toEndOf="@+id/textView9"
+                app:layout_constraintHorizontal_bias="0.266"
+                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.235" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="386dp"
+                android:layout_height="834dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/txtTipoDemanda"
+                android:layout_width="182dp"
+                android:layout_height="39dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="TextView"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView9"
+                app:layout_constraintEnd_toEndOf="@+id/textView9"
+                app:layout_constraintHorizontal_bias="0.039"
+                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.027" />
+
+            <TextView
+                android:id="@+id/txtEstado"
+                android:layout_width="182dp"
+                android:layout_height="39dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="TextView"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView9"
+                app:layout_constraintEnd_toEndOf="@+id/textView9"
+                app:layout_constraintHorizontal_bias="0.039"
+                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.116" />
+
+            <TextView
+                android:id="@+id/txtMensaje2"
+                android:layout_width="360dp"
+                android:layout_height="188dp"
+                android:layout_marginTop="388dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="36sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/btnModificar"
+                app:layout_constraintEnd_toEndOf="@+id/textView9"
+                app:layout_constraintHorizontal_bias="0.153"
+                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintTop_toTopOf="@+id/textView9"
+                app:layout_constraintVertical_bias="0.697" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewCiudadanoOficialia"
+                android:layout_width="363dp"
+                android:layout_height="327dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView9"
+                app:layout_constraintEnd_toEndOf="@+id/textView9"
+                app:layout_constraintHorizontal_bias="0.123"
+                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.628" >
+
+            </android.support.v7.widget.RecyclerView>
+
+            <Button
+                android:id="@+id/btnSubsanar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/btnSubsanar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/textView9"
+                app:layout_constraintHorizontal_bias="0.432"
+                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.896" />
+
+            <Button
+                android:id="@+id/btnRadicar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/btnRadicar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/textView9"
+                app:layout_constraintHorizontal_bias="0.063"
+                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.896" />
+
+            <Button
+                android:id="@+id/btnRechazar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/btnRechazar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/textView9"
+                app:layout_constraintHorizontal_bias="0.837"
+                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.896" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_demandas"
+            android:icon="@drawable/lista"
+            android:title="@string/item1" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_cerrar"
+                android:icon="@drawable/cerrar"
+                android:title="@string/item3" />
+        </menu>
+    </item>
+</menu>

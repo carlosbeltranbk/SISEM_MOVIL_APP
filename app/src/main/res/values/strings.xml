@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Sistema Seguimiento de Trámites de Multas</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo Electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar Sesión</string>
+
+
+    <!--Menu Usuarios-->
+    <string name="titleMenu">Sistemas de Seguimiento de Multas</string>
+    <string name="subtitleMenu1">Ciudadano</string>
+    <string name="subtitleMenu2">Magistrado</string>
+    <string name="subtitleMenu3">Pleno</string>
+    <string name="subtitleMenu4">Secretaría de Acuerdos</string>
+    <string name="subtitleMenu5">Secretaría de Estudio y Cuenta</string>
+    <string name="subtitleMenu6">Síndico Municipal</string>
+    <string name="subtitleMenu7">Oficialía de Partes</string>
+
+
+    <!--Generados por el sistema-->
+    <string name="title_activity_home_ciudadano">Ciudadano</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_fiscalia">Síndico Municipal</string>
+    <string name="title_activity_home_magistrado">Magistrado</string>
+    <string name="title_activity_home_oficialia">Oficialía de Partes</string>
+    <string name="title_activity_secretaria_acuerdos">Secretaría de Acuerdos</string>
+    <string name="title_activity_secretaria_estudio">Secretaría de Estudio y Cuenta</string>
+    <string name="title_activity_home_pleno">Pleno</string>
+
+    <!--Textos de menu lateral-->
+    <string name="item1">Mostrar Demandas</string>
+    <string name="item2">Registrar Demandas</string>
+    <string name="item3">Cerrar Sesión</string>
+
+    <!--Generar Demandas-->
+    <string name="txtDescripcionDemanda">Descripción de la demanda</string>
+    <string name="titleDemanda">Registrar Demanda</string>
+    <string name="btnRegistrar">Subir Pruebas</string>
+    <string name="titleModificarDemanda">Modificar Demanda</string>
+    <string name="btnFinalizar">Finalizar</string>
+
+    <!--Generar Pruebas-->
+    <string name="btnSubirPruebas">Subir Pruebas</string>
+    <string name="titleSubirDemandas">Sube tus pruebas</string>
+    <string name="btnVolver">Volver</string>
+
+    <!--formulario registrar usuario-->
+    <string name="txtNombre">Nombre(s)</string>
+    <string name="txtApellido1">Apellido Paterno</string>
+    <string name="txtApellido2">Apellido Materno</string>
+    <string name="edad">Edad</string>
+    <string name="curp">CURP</string>
+    <string name="repetirContraseña">Repetir Contraseña</string>
+    <string name="txtImagen">Inserta la Primera Imagen</string>
+    <string name="txtRegistrar">Registrar Cuenta</string>
+    <string name="txtFechaNacimiento">Fecha de Nacimiento</string>
+
+    <!--Veredicto-->
+    <string name="btnVeredictoCiudadano">Dar Veredicto al Ciudadano</string>
+    <string name="btnVeredictoFiscal">Dar Veredicto al Síndico Municpal</string>
+
+    <!--Secretaria de Estudio y Cuenta-->
+    <string name="edFechaDemanda">Fecha de la Demanda</string>
+    <string name="btnAgendar">Agendar</string>
+
+    <!--Demanda Usuario-->
+    <string name="btnModificar">Modificar Demanda</string>
+
+    <!--Demanda Oficialia de Partes-->
+    <string name="btnRadicar">Radicar</string>
+    <string name="btnSubsanar">Subsanar</string>
+    <string name="btnRechazar">Rechazar</string>
+
+    <string name="txtHora">Hora</string>
+    <string name="txtMinutos">Minutos</string>
+
+</resources>
